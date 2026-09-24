@@ -1,5 +1,5 @@
 // src/tasks/task4-integration.ts
-import { Book, Catalog, BookFilter } from './task1-types';
+import { Book, Catalog, BookFilter } from './task1-types';;
 
 export function createBookFromForm(formData: FormData): Book {
   // Взять данные из FormData, сгенерировать id, вернуть объект Book
